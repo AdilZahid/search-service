@@ -1,14 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-
+import SearchService from "./components/Search/SearchService";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Search Service
-        </p>
-      </header>
+        <SearchService/>
     </div>
   );
 }
